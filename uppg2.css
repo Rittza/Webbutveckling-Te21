@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: yellowgreen;
     color: white;
 }
 h1{
@@ -23,17 +23,20 @@ h1,h2{
 
 td, th {
     width: 200px;
-    
+    height: 50px;
+    padding: 10px;
 }
 
 table, th, td {border: 1px solid white;
-    border-collapse: collapse;}
-
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+    
 :nth-child(odd)
     
 style table{border: 1px white;}
 .Rubrik {
-    background-color: red;
+    background-color: grey;
 }
 
 td:nth-child(4), th:nth-child(4){
@@ -42,7 +45,38 @@ td:nth-child(4), th:nth-child(4){
 th:nth-child(1){
     text-align: left;
 }
-
-td:nth-child(){
+td:nth-child(2){
+    text-align: center;
+}
+td:nth-child(3){
+    text-align: center;
+}
+tr:nth-child(2n+3){
+    background-color: aqua;
+}
+tr:nth-child(2n+2){
+    background-color:white;
+    color: black;
+}
+th:nth-child(1n){
+    color: black;
+}
+.a{
     background-color: blue;
+}
+.b{
+    background-color: red;
+}
+.c{
+    background-color: yellow;
+}
+.d{
+    background-color:black ;
+}
+.e{
+    background-color:green ;
+}
+.abc{
+    width: 800px;
+    height: 400px;
 }
